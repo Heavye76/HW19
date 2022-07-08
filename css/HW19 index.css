@@ -2,7 +2,7 @@ body {
     height: 1200px;  
 }
 
-ul{
+.noBullet{
     list-style: none
 }
 
