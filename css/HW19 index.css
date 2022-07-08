@@ -1,21 +1,22 @@
 body {
-    
-    height: 1200px;
-   
+    height: 1200px;  
 }
 
+ul{
+    list-style: none
+}
+
+/*
 p {
  color: black;
  font-family: 'Raleway';
  text-align: center;
 }
+*/
 
-.nameformat {
-    font-family: 'Yellowtail';
-    color: black;
-    font-size: 30px;
-    text-align: center;
-    padding: 10px 0px 0px 10px;
+.flexcontainer{
+    display: flex;
+
 }
 
 .summary{
@@ -25,11 +26,71 @@ p {
     text-align: center;
     padding: 10px 0px 0px 10px;
 }
+.nameformat {
+    font-family: 'Yellowtail';
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0px 0px 10px;
+}
+
+.navbar {
+    padding: 1%;
+    text-align: right;
+    padding: 1px 3px;
+    text-decoration: none;
+}
+
+.inline-block {
+    color: black;
+    display: inline;
+    vertical-align: top;
+    padding: 10px 10px;
+    font-family: 'Raleway'
+
+}
+
+
+
+
+
+
 
 .flexcontainer{
     display: flex;
 
 }
+
+
+.fade{
+    font-size: 14px;
+    text-align: center;
+ 
+}
+
+.size{
+    width:20px;
+    height:10px;
+}
+
+
+.arrowButton{
+    float: center;
+    background-color: blue;
+    border-color: transparent;
+   
+
+}
+
+.Qbutton{
+    background-color: lightblue;
+    border-radius: 4px;
+    
+    border-color: lightgray;
+    padding: 15px;
+
+}
+
 
 .one{
     font-family: 'Raleway';
@@ -87,7 +148,7 @@ p {
     padding: 10%; 
 }
 
-img {
+#shastaPic {
     display: block;
     width: 200px;
     height: 150px;
@@ -95,6 +156,7 @@ img {
     object-fit: contain;
     margin: auto;
 }
+
 
 h3 {
     text-align: center;
@@ -112,22 +174,6 @@ h3 {
 
 }
 
-.inline-block {
-    
-    color: black;
-    display: inline;
-    vertical-align: bottom;
-    padding: 10px 10px;
-    font-family: 'Raleway';
-    
-}
-
-.navbar {
-    padding: 10%;
-    text-align: center;
-    padding: 1px 3px;
-    text-decoration: none;
-}
 
 @media only screen and (max-width: 600px) {
     body {
